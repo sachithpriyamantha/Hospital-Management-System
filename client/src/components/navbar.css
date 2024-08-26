@@ -1,0 +1,40 @@
+/* navbar.css */
+.navbar {
+    background-color: #10846e; 
+  }
+  
+  .navbar-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+    color: #ecf0f1; 
+    text-decoration: none;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-menu .nav-link {
+    color: #dfe2e3;
+    font-size: 1.1rem;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .navbar-menu .nav-link:hover {
+    color: #ffffff; 
+    background-color: transparent;
+  }
+  
+  .navbar-avatar {
+    border: 2px solid #ecf0f1;
+  }
+  
+  .navbar-tooltip {
+    color: #ecf0f1;
+    background-color: #04622e;
+  }
+  
